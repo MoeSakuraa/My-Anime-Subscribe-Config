@@ -1,0 +1,35 @@
+interval: 0
+resource:
+  url: https://mikanani.me/RSS/Classic
+  type: "rss-mikanani"
+record:
+  expire: 604800
+aria2:
+  env: true
+
+#↑以上内容勿改动
+#↓以下内容可改
+
+rules:
+  转生为第七王子，随心所欲的魔法学习之路:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - Dainana Ouji
+        - baha
+        - up to 21
+      - - Dainana Ouji
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
+  狼与香辛料 行商邂逅贤狼:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - ERCHANT MEETS THE
+        - 1080p
+        - 幻之字幕组
+      - - ERCHANT MEETS THE
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
