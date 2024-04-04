@@ -1,4 +1,3 @@
-interval: 0
 resource:
   url: https://share.acgnx.se/rss.xml
   type: "rss-share-acgnx"
