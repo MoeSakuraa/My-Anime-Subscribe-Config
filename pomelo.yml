@@ -1,7 +1,7 @@
 interval: 0
 resource:
-  url: https://mikanani.me/RSS/Classic
-  type: "rss-mikanani"
+  url: https://share.acgnx.se/rss.xml
+  type: "rss-share-acgnx"
 record:
   expire: 604800
 aria2:
