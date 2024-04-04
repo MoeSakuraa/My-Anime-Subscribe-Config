@@ -33,3 +33,15 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  Final:
+    option:
+      dir: "/downloads/新番 全搬运 未分类"
+    accept:
+      - - Up to 21
+        - baha
+      - - ani
+        - bilibili
+      - - LoliHouse
+    reject:
+      - - bdrip
+        - 合集
