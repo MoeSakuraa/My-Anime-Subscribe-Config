@@ -32,6 +32,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  摇曳露营 第三季:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - uru Camp
+        - baha
+        - up to 21
+      - - uru Camp
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   Final:
     option:
       dir: "/downloads/新番 全搬运 未分类"
