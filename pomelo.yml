@@ -43,6 +43,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  魔法科高校劣等生 第3季:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - Mahouka Koukou
+        - B-Global
+        - up to 21
+      - - Mahouka Koukou
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   蔚蓝档案:
     option:
       dir: /downloads/连载/{{rule.name}}
