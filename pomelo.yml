@@ -61,7 +61,10 @@ rules:
       - - Blue Achieve
         - baha
         - up to 21
-      - - Blue Achieve
+      - - Blue Archive
+        - baha
+        - up to 21
+      - - Blue Archive
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
