@@ -54,6 +54,14 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  终末列车去往何方:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - uumatsu Train D
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   蔚蓝档案:
     option:
       dir: /downloads/连载/{{rule.name}}
