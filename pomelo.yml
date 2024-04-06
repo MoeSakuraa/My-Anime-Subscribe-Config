@@ -54,6 +54,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  关于我转生变成史莱姆这档事 第三季:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - nsei shitara Slime Da
+        - B-Global
+        - up to 21
+      - - nsei shitara Slime Da
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   终末列车去往何方:
     option:
       dir: /downloads/连载/{{rule.name}}
