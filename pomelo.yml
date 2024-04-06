@@ -65,6 +65,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  GIRLS BAND CRY:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - GIRLS BAND CRY
+        - 喵萌奶茶屋
+        - 简日双语
+      - - GIRLS BAND CRY
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   终末列车去往何方:
     option:
       dir: /downloads/连载/{{rule.name}}
