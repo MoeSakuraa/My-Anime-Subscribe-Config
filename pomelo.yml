@@ -65,6 +65,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  死神少爷与黑女仆 第3期:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - 死神少
+        - baha
+        - up to 21
+      - - 死神少
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   魔法科高校劣等生 第3季:
     option:
       dir: /downloads/连载/{{rule.name}}
