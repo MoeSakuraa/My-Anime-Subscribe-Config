@@ -54,6 +54,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  无职转生 第2期 Part.2:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - ushoku Tense
+        - baha
+        - up to 21
+      - - ushoku Tense
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   魔法科高校劣等生 第3季:
     option:
       dir: /downloads/连载/{{rule.name}}
