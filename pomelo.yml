@@ -15,7 +15,7 @@ rules:
       dir: /downloads/连载/{{rule.name}}
     accept:
       - - Dainana Ouji
-        - baha
+        - B-Global
         - up to 21
       - - Dainana Ouji
         - LoliHouse
