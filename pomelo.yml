@@ -51,6 +51,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  为美好的世界献上祝福！第三季:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - Kono Suba
+        - B-Global
+        - up to 21
+      - - Kono Suba
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   摇曳露营 第三季:
     option:
       dir: /downloads/连载/{{rule.name}}
