@@ -32,6 +32,14 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  吹响吧！上低音号 第三季:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - Euphonium
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   摇曳露营 第三季:
     option:
       dir: /downloads/连载/{{rule.name}}
