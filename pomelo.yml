@@ -111,7 +111,7 @@ rules:
       dir: /downloads/连载/{{rule.name}}
     accept:
       - - Mahouka Koukou
-        - B-Global
+        - baha
         - up to 21
       - - Mahouka Koukou
         - LoliHouse
