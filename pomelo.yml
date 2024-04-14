@@ -62,6 +62,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  怪兽8号:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - aijuu 8-go
+        - Baha
+        - up to 21
+      - - aijuu 8-go
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   为美好的世界献上祝福！第三季:
     option:
       dir: /downloads/连载/{{rule.name}}
