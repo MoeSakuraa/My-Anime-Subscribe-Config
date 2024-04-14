@@ -31,7 +31,7 @@ rules:
       - - Spice and Wolf
         - LoliHouse
     reject:
-      - - sp|ova|oad|special|特別
+      - - ova|oad|special|特別 #特别
   吹响吧！上低音号 第三季:
     option:
       dir: /downloads/连载/{{rule.name}}
