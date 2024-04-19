@@ -36,6 +36,8 @@ rules:
     option:
       dir: /downloads/连载/{{rule.name}}
     accept:
+      - - ANi
+        - 吹響吧
       - - Euphonium
         - LoliHouse
     reject:
