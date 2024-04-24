@@ -80,7 +80,7 @@ rules:
       dir: /downloads/连载/{{rule.name}}
     accept:
       - - Kono Suba
-        - B-Global
+        - Baha
         - up to 21
       - - Kono Suba
         - LoliHouse
