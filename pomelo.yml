@@ -86,16 +86,6 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  战队大失格:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - TOC
-        - 大失格
-      - - 大失格
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   摇曳露营 第三季:
     option:
       dir: /downloads/连载/{{rule.name}}
