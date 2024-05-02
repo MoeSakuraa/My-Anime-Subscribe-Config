@@ -159,7 +159,7 @@ rules:
       - - GIRLS BAND CRY
         - LoliHouse
     reject:
-      - - sp|ova|oad|special|特別
+      - - sp|ova|oad|special|特別|Album
   终末列车去往何方:
     option:
       dir: /downloads/连载/{{rule.name}}
