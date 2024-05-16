@@ -108,6 +108,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  鬼灭之刃 柱训练篇:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - Kimetsu no Yaiba
+        - baha
+        - up to 21
+      - - Kimetsu no Yaiba
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   无职转生 第2期 Part.2:
     option:
       dir: /downloads/连载/{{rule.name}}
