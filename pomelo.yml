@@ -146,28 +146,6 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  迷宫饭:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - elicious in Dungeo
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  蔚蓝档案:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - Blue Achieve
-        - baha
-        - up to 21
-      - - Blue Archive
-        - baha
-        - up to 21
-      - - Blue Archive
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   Final:
     option:
       dir: "/downloads/新番 全搬运 未分类"
