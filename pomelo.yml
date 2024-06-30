@@ -10,17 +10,6 @@ aria2:
 #↓以下内容可改
 
 rules:
-  转生为第七王子，随心所欲的魔法学习之路:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - Dainana Ouji
-        - Baha
-        - up to 21
-      - - Dainana Ouji
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   狼与香辛料 行商邂逅贤狼:
     option:
       dir: /downloads/连载/{{rule.name}}
