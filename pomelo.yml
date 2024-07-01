@@ -31,17 +31,6 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  约会大作战 S5:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - Date A Live
-        - B-Global
-        - up to 21
-      - - Date A Live
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～第二季:
     option:
       dir: /downloads/连载/{{rule.name}}
