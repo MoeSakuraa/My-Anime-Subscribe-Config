@@ -75,17 +75,6 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  死神少爷与黑女仆 第3期:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - 死神少
-        - baha
-        - up to 21
-      - - 死神少
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   关于我转生变成史莱姆这档事 第三季:
     option:
       dir: /downloads/连载/{{rule.name}}
@@ -94,22 +83,6 @@ rules:
         - B-Global
         - up to 21
       - - nsei shitara Slime Da
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  GIRLS BAND CRY:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - GIRLS BAND CRY
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別|Album
-  终末列车去往何方:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - uumatsu Train D
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
