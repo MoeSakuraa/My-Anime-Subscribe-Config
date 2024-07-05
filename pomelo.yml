@@ -54,6 +54,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  尼尔 机械纪元:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - NieR
+        - B-Global
+        - up to 21
+      - - NieR
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   异世界自杀小队:
     option:
       dir: /downloads/连载/{{rule.name}}
