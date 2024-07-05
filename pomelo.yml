@@ -37,7 +37,7 @@ rules:
       dir: /downloads/连载/{{rule.name}}
     accept:
       - - Russia
-        - B-Global
+        - baha
         - up to 21
       - - Russia
         - LoliHouse
@@ -48,7 +48,7 @@ rules:
       dir: /downloads/连载/{{rule.name}}
     accept:
       - - shi no K
-        - B-Global
+        - baha
         - up to 21
       - - shi no K
         - LoliHouse
@@ -59,7 +59,7 @@ rules:
       dir: /downloads/连载/{{rule.name}}
     accept:
       - - NieR
-        - B-Global
+        - baha
         - up to 21
       - - NieR
         - LoliHouse
@@ -70,7 +70,7 @@ rules:
       dir: /downloads/连载/{{rule.name}}
     accept:
       - - Squad
-        - B-Global
+        - baha
         - up to 21
       - - Squad
         - LoliHouse
