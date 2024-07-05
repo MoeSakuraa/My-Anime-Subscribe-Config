@@ -43,6 +43,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  异世界自杀小队:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - uicide Squad Isek
+        - Baha
+        - up to 21
+      - - uicide Squad Isek
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   鬼灭之刃 柱训练篇:
     option:
       dir: /downloads/连载/{{rule.name}}
