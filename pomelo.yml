@@ -37,7 +37,7 @@ rules:
       dir: /downloads/连载/{{rule.name}}
     accept:
       - - Russia
-        - Baha
+        - B-Global
         - up to 21
       - - Russia
         - LoliHouse
@@ -48,7 +48,7 @@ rules:
       dir: /downloads/连载/{{rule.name}}
     accept:
       - - shi no K
-        - Baha
+        - B-Global
         - up to 21
       - - shi no K
         - LoliHouse
@@ -69,10 +69,10 @@ rules:
     option:
       dir: /downloads/连载/{{rule.name}}
     accept:
-      - - uicide Squad Isek
-        - Baha
+      - - Squad
+        - B-Global
         - up to 21
-      - - uicide Squad Isek
+      - - Squad
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
