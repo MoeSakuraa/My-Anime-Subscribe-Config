@@ -21,16 +21,6 @@ rules:
         - LoliHouse
     reject:
       - - ova|oad|special|特別 #特别
-  吹响吧！上低音号 第三季:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - ANi
-        - 吹響吧
-      - - Euphonium
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～第二季:
     option:
       dir: /downloads/连载/{{rule.name}}
@@ -42,28 +32,6 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  怪兽8号:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - aijuu 8-go
-        - Baha
-        - up to 21
-      - - aijuu 8-go
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  摇曳露营 第三季:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - uru Camp
-        - baha
-        - up to 21
-      - - uru Camp
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   鬼灭之刃 柱训练篇:
     option:
       dir: /downloads/连载/{{rule.name}}
@@ -72,17 +40,6 @@ rules:
         - baha
         - up to 21
       - - Kimetsu no Yaiba
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  关于我转生变成史莱姆这档事 第三季:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - nsei shitara Slime Da
-        - B-Global
-        - up to 21
-      - - nsei shitara Slime Da
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
