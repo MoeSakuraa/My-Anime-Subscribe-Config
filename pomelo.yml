@@ -93,6 +93,8 @@ rules:
     accept:
       - - Up to 21
         - baha
+      - - Up to 21
+        - b-global
       - - ani
         - bilibili
       - - LoliHouse
