@@ -43,6 +43,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  我推的孩子:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - shi no K
+        - Baha
+        - up to 21
+      - - shi no K
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   异世界自杀小队:
     option:
       dir: /downloads/连载/{{rule.name}}
