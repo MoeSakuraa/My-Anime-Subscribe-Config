@@ -32,6 +32,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  不时用俄语说真心话的邻桌艾莉同学:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - Russia
+        - Baha
+        - up to 21
+      - - Russia
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   鬼灭之刃 柱训练篇:
     option:
       dir: /downloads/连载/{{rule.name}}
