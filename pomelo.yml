@@ -65,6 +65,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  物语系列 第外季＆第怪季:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - Monogatari
+        - baha
+        - up to 21
+      - - Monogatari
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   异世界自杀小队:
     option:
       dir: /downloads/连载/{{rule.name}}
