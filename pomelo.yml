@@ -76,6 +76,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  小市民系列:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - houshimin Seri
+        - baha
+        - up to 21
+      - - houshimin Seri
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   异世界自杀小队:
     option:
       dir: /downloads/连载/{{rule.name}}
