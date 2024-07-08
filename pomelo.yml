@@ -36,10 +36,10 @@ rules:
     option:
       dir: /downloads/连载/{{rule.name}}
     accept:
-      - - Russia
+      - - 俄
         - baha
         - up to 21
-      - - Russia
+      - - 俄
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
