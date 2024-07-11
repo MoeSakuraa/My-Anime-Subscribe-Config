@@ -109,6 +109,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  杖与剑的魔剑谭:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - Tsue to
+        - baha
+        - up to 21
+      - - Tsue to
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   异世界自杀小队:
     option:
       dir: /downloads/连载/{{rule.name}}
