@@ -47,10 +47,10 @@ rules:
     option:
       dir: /downloads/连载/{{rule.name}}
     accept:
-      - - 2.5
+      - - en no Rir
         - baha
         - up to 21
-      - - 2.5
+      - - en no Rir
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
