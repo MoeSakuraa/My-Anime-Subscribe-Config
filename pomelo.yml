@@ -76,6 +76,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  败犬女主太多了！:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - ake Heroine ga O
+        - baha
+        - up to 21
+      - - ake Heroine ga O
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   物语系列 第外季＆第怪季:
     option:
       dir: /downloads/连载/{{rule.name}}
