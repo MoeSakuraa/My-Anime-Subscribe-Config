@@ -43,6 +43,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  2.5次元的诱惑:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - 2.5
+        - baha
+        - up to 21
+      - - 2.5
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   我推的孩子:
     option:
       dir: /downloads/连载/{{rule.name}}
