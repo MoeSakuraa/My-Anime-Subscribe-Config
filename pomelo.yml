@@ -21,6 +21,14 @@ rules:
         - LoliHouse
     reject:
       - - ova|oad|special|特別 #特别
+  鹿乃子乃子乃子虎视眈眈:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - 鹿乃子
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   不时用俄语说真心话的邻桌艾莉同学:
     option:
       dir: /downloads/连载/{{rule.name}}
