@@ -1,6 +1,5 @@
 resource:
-  url: https://share.acgnx.se/rss.xml
-  type: "rss-share-acgnx"
+  url: "https://share.acgnx.se/rss.xml"
 record:
   expire: 604800
 aria2:
