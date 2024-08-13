@@ -20,6 +20,16 @@ rules:
         - LoliHouse
     reject:
       - - ova|oad|special|特別 #特别
+  义妹生活:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - 义妹生活
+        - hevc
+        - 简繁
+        - 拨雪寻春
+    reject:
+      - - ova|oad|special|特別 #特别
   鹿乃子乃子乃子虎视眈眈:
     option:
       dir: /downloads/连载/{{rule.name}}
