@@ -98,9 +98,6 @@ rules:
       dir: /downloads/连载/{{rule.name}}
     accept:
       - - Monogatari
-        - baha
-        - up to 21
-      - - Monogatari
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
