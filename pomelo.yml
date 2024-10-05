@@ -9,46 +9,6 @@ aria2:
 #↓以下内容可改
 
 rules:
-  狼与香辛料 行商邂逅贤狼:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - ERCHANT MEETS THE
-        - 1080p
-        - 幻之字幕组
-      - - Spice and Wolf
-        - LoliHouse
-    reject:
-      - - ova|oad|special|特別 #特别
-  义妹生活:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - 义妹生活
-        - hevc
-        - 简繁
-        - 拨雪寻春
-    reject:
-      - - ova|oad|special|特別 #特别
-  鹿乃子乃子乃子虎视眈眈:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - 鹿乃子
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  不时用俄语说真心话的邻桌艾莉同学:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - 俄
-        - baha
-        - up to 21
-      - - 俄
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   2.5次元的诱惑:
     option:
       dir: /downloads/连载/{{rule.name}}
@@ -71,77 +31,11 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  尼尔 机械纪元:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - NieR
-        - baha
-        - up to 21
-      - - NieR
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  败犬女主太多了！:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - ake Heroine ga O
-        - baha
-        - up to 21
-      - - ake Heroine ga O
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   物语系列 第外季＆第怪季:
     option:
       dir: /downloads/连载/{{rule.name}}
     accept:
       - - Monogatari
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  小市民系列:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - houshimin Seri
-        - baha
-        - up to 21
-      - - houshimin Seri
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  擅长逃跑的殿下:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - 殿下
-        - baha
-        - up to 21
-      - - 殿下
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  杖与剑的魔剑谭:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - Tsue to
-        - baha
-        - up to 21
-      - - Tsue to
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  异世界自杀小队:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - Squad
-        - baha
-        - up to 21
-      - - Squad
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
