@@ -20,6 +20,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  蓝色监狱 VS. U-20 日本代表队:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - Blue Lock
+        - baha
+        - up to 21
+      - - Blue Lock
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   在地下城寻求邂逅是否搞错了什么 第五季:
     option:
       dir: /downloads/连载/{{rule.name}}
