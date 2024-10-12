@@ -20,6 +20,47 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  在地下城寻求邂逅是否搞错了什么 第五季:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - eon ni Deai wo Motome
+        - baha
+        - up to 21
+      - - DanMachi
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
+  Re 从零开始的异世界生活 第三季:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - ara Hajimeru Isekai Seik
+        - baha
+        - up to 21
+      - - ara Hajimeru Isekai Seik
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
+  青之箱:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - Ao no Hako
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
+  女仆冥土小姐:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - imi wa Meid
+        - baha
+        - up to 21
+      - - imi wa Meid
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   我推的孩子:
     option:
       dir: /downloads/连载/{{rule.name}}
