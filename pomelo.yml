@@ -61,6 +61,15 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  东离剑游纪 第4季:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - Thunderbolt Fantasy
+        - baha
+        - up to 21
+    reject:
+      - - sp|ova|oad|special|特別
   女仆冥土小姐:
     option:
       dir: /downloads/连载/{{rule.name}}
