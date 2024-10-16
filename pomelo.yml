@@ -20,6 +20,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  可爱史莱姆噗尼露:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - Puniru wa Kawaii Slime
+        - baha
+        - up to 21
+      - - Puniru wa Kawaii Slime
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   真的要结婚吗:
     option:
       dir: /downloads/连载/{{rule.name}}
