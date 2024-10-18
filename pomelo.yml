@@ -20,6 +20,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  胆大党:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - andada
+        - baha
+        - up to 21
+      - - andada
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   可爱史莱姆噗尼露:
     option:
       dir: /downloads/连载/{{rule.name}}
