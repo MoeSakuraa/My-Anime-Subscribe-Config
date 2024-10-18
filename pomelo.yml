@@ -132,17 +132,6 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  我推的孩子:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - shi no K
-        - baha
-        - up to 21
-      - - shi no K
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   物语系列 第外季＆第怪季:
     option:
       dir: /downloads/连载/{{rule.name}}
