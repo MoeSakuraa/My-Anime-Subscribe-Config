@@ -99,9 +99,7 @@ rules:
       dir: /downloads/连载/{{rule.name}}
     accept:
       - - Chikyuu no Undou ni
-        - 喵萌奶茶屋
-        - 10bit
-        - 简
+        - lolihouse
     reject:
       - - sp|ova|oad|special|特別
   龙珠 大魔:
