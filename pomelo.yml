@@ -31,6 +31,14 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  乱马:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - Ranma
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   可爱史莱姆噗尼露:
     option:
       dir: /downloads/连载/{{rule.name}}
