@@ -9,17 +9,6 @@ aria2:
 #↓以下内容可改
 
 rules:
-  2.5次元的诱惑:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - en no Rir
-        - baha
-        - up to 21
-      - - en no Rir
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   胆大党:
     option:
       dir: /downloads/连载/{{rule.name}}
