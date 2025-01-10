@@ -31,28 +31,6 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  可爱史莱姆噗尼露:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - Puniru wa Kawaii Slime
-        - baha
-        - up to 21
-      - - Puniru wa Kawaii Slime
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  真的要结婚吗:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - Kekkon suru tte
-        - baha
-        - up to 21
-      - - Kekkon suru tte
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   在地下城寻求邂逅是否搞错了什么 第五季:
     option:
       dir: /downloads/连载/{{rule.name}}
@@ -83,39 +61,11 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  地 关于地球的运动:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - Chikyuu no Undou ni
-        - lolihouse
-    reject:
-      - - sp|ova|oad|special|特別
   龙珠 大魔:
     option:
       dir: /downloads/连载/{{rule.name}}
     accept:
       - - Dragon Ball Daima
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  东离剑游纪 第4季:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - Thunderbolt Fantasy
-        - baha
-        - up to 21
-    reject:
-      - - sp|ova|oad|special|特別
-  女仆冥土小姐:
-    option:
-      dir: /downloads/连载/{{rule.name}}
-    accept:
-      - - imi wa Meid
-        - baha
-        - up to 21
-      - - imi wa Meid
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
