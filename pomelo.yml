@@ -20,6 +20,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  我和班上最讨厌的女生结婚了:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - ass no Daikirai na Joshi to Ke
+        - baha
+        - up to 21
+      - - ass no Daikirai na Joshi to Ke
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   BanG Dream! Ave Mujica:
     option:
       dir: /downloads/连载/{{rule.name}}
