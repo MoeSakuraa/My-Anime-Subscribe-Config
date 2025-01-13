@@ -31,6 +31,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  超超超超超喜欢你的100个女朋友 第二季:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - 超超超超超
+        - baha
+        - up to 21
+      - - 超超超超超
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   BanG Dream! Ave Mujica:
     option:
       dir: /downloads/连载/{{rule.name}}
