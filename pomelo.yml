@@ -42,6 +42,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  我独自升级 第二季:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - ake Level Up na
+        - baha
+        - up to 21
+      - - ake Level Up na
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   药屋少女的呢喃 第二季:
     option:
       dir: /downloads/连载/{{rule.name}}
