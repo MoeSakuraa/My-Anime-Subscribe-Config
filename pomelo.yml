@@ -53,6 +53,16 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  战队红战士在异世界当冒险者:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - 战队红
+        - trange-Raw
+      - - 战队红
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   药屋少女的呢喃 第二季:
     option:
       dir: /downloads/连载/{{rule.name}}
