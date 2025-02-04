@@ -42,6 +42,14 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  金牌得主:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - 金牌得主
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   我独自升级 第二季:
     option:
       dir: /downloads/连载/{{rule.name}}
