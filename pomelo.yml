@@ -20,6 +20,15 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  You and idol 光之美少女♪:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - ou and Idol Prec
+        - 雪飘工作
+        - 1080p
+    reject:
+      - - sp|ova|oad|special|特別
   我和班上最讨厌的女生结婚了:
     option:
       dir: /downloads/连载/{{rule.name}}
