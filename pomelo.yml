@@ -2,16 +2,19 @@ resource:
   url: "https://share.acgnx.se/rss.xml"
 record:
   expire: 604800
-aria2:
-  env: true
+download:
+  aria2:
+    env: true
+    enabled: true
 
 #↑以上内容勿改动
 #↓以下内容可改
 
 rules:
   胆大党:
-    option:
-      dir: /downloads/连载/{{rule.name}}
+    options:
+      download:
+        dir: /downloads/连载/{{rule.name}}
     accept:
       - - andada
         - baha
@@ -21,8 +24,9 @@ rules:
     reject:
       - - sp|ova|oad|special|特別
   You and idol 光之美少女♪:
-    option:
-      dir: /downloads/连载/{{rule.name}}
+    options:
+      download:
+        dir: /downloads/连载/{{rule.name}}
     accept:
       - - ou and Idol Prec
         - 雪飘工作
@@ -30,8 +34,9 @@ rules:
     reject:
       - - sp|ova|oad|special|特別
   我和班上最讨厌的女生结婚了:
-    option:
-      dir: /downloads/连载/{{rule.name}}
+    options:
+      download:
+        dir: /downloads/连载/{{rule.name}}
     accept:
       - - ass no Daikirai na Joshi to Ke
         - baha
@@ -41,8 +46,9 @@ rules:
     reject:
       - - sp|ova|oad|special|特別
   超超超超超喜欢你的100个女朋友 第二季:
-    option:
-      dir: /downloads/连载/{{rule.name}}
+    options:
+      download:
+        dir: /downloads/连载/{{rule.name}}
     accept:
       - - 超超超超超
         - baha
@@ -52,16 +58,18 @@ rules:
     reject:
       - - sp|ova|oad|special|特別
   金牌得主:
-    option:
-      dir: /downloads/连载/{{rule.name}}
+    options:
+      download:
+        dir: /downloads/连载/{{rule.name}}
     accept:
       - - 金牌得主
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
   我独自升级 第二季:
-    option:
-      dir: /downloads/连载/{{rule.name}}
+    options:
+      download:
+        dir: /downloads/连载/{{rule.name}}
     accept:
       - - ake Level Up na
         - baha
@@ -71,8 +79,9 @@ rules:
     reject:
       - - sp|ova|oad|special|特別
   战队红战士在异世界当冒险者:
-    option:
-      dir: /downloads/连载/{{rule.name}}
+    options:
+      download:
+        dir: /downloads/连载/{{rule.name}}
     accept:
       - - 战队红
         - trange-Raw
@@ -81,8 +90,9 @@ rules:
     reject:
       - - sp|ova|oad|special|特別
   药屋少女的呢喃 第二季:
-    option:
-      dir: /downloads/连载/{{rule.name}}
+    options:
+      download:
+        dir: /downloads/连载/{{rule.name}}
     accept:
       - - usuriya no Hitorigo
         - 天月搬運組
@@ -91,8 +101,9 @@ rules:
     reject:
       - - sp|ova|oad|special|特別
   BanG Dream! Ave Mujica:
-    option:
-      dir: /downloads/连载/{{rule.name}}
+    options:
+      download:
+        dir: /downloads/连载/{{rule.name}}
     accept:
       - - Mujica
         - baha
@@ -102,8 +113,9 @@ rules:
     reject:
       - - sp|ova|oad|special|特別
   在地下城寻求邂逅是否搞错了什么 第五季:
-    option:
-      dir: /downloads/连载/{{rule.name}}
+    options:
+      download:
+        dir: /downloads/连载/{{rule.name}}
     accept:
       - - eon ni Deai wo Motome
         - baha
@@ -113,8 +125,9 @@ rules:
     reject:
       - - sp|ova|oad|special|特別
   Re 从零开始的异世界生活 第三季:
-    option:
-      dir: /downloads/连载/{{rule.name}}
+    options:
+      download:
+        dir: /downloads/连载/{{rule.name}}
     accept:
       - - ara Hajimeru Isekai Seik
         - baha
@@ -124,24 +137,27 @@ rules:
     reject:
       - - sp|ova|oad|special|特別
   青之箱:
-    option:
-      dir: /downloads/连载/{{rule.name}}
+    options:
+      download:
+        dir: /downloads/连载/{{rule.name}}
     accept:
       - - Ao no Hako
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
   龙珠 大魔:
-    option:
-      dir: /downloads/连载/{{rule.name}}
+    options:
+      download:
+        dir: /downloads/连载/{{rule.name}}
     accept:
       - - Dragon Ball Daima
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
   Final:
-    option:
-      dir: "/downloads/新番 全搬运 未分类"
+    options:
+      download:
+        dir: "/downloads/新番 全搬运 未分类"
     accept:
       - - Up to 21
         - baha
