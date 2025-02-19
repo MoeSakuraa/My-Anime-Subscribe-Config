@@ -5,6 +5,8 @@ record:
 download:
   aria2:
     env: true
+    enabled: false
+  custom:
     enabled: true
 
 #↑以上内容勿改动
@@ -14,7 +16,7 @@ rules:
   胆大党:
     options:
       download:
-        dir: /downloads/连载/{{rule.name}}
+        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - andada
         - baha
@@ -26,7 +28,7 @@ rules:
   You and idol 光之美少女♪:
     options:
       download:
-        dir: /downloads/连载/{{rule.name}}
+        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - ou and Idol Prec
         - 雪飘工作
@@ -36,7 +38,7 @@ rules:
   我和班上最讨厌的女生结婚了:
     options:
       download:
-        dir: /downloads/连载/{{rule.name}}
+        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - ass no Daikirai na Joshi to Ke
         - baha
@@ -48,7 +50,7 @@ rules:
   超超超超超喜欢你的100个女朋友 第二季:
     options:
       download:
-        dir: /downloads/连载/{{rule.name}}
+        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - 超超超超超
         - baha
@@ -60,7 +62,7 @@ rules:
   金牌得主:
     options:
       download:
-        dir: /downloads/连载/{{rule.name}}
+        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - 金牌得主
         - LoliHouse
@@ -69,7 +71,7 @@ rules:
   我独自升级 第二季:
     options:
       download:
-        dir: /downloads/连载/{{rule.name}}
+        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - ake Level Up na
         - baha
@@ -81,7 +83,7 @@ rules:
   战队红战士在异世界当冒险者:
     options:
       download:
-        dir: /downloads/连载/{{rule.name}}
+        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - 战队红
         - trange-Raw
@@ -92,7 +94,7 @@ rules:
   药屋少女的呢喃 第二季:
     options:
       download:
-        dir: /downloads/连载/{{rule.name}}
+        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - usuriya no Hitorigo
         - 天月搬運組
@@ -103,7 +105,7 @@ rules:
   BanG Dream! Ave Mujica:
     options:
       download:
-        dir: /downloads/连载/{{rule.name}}
+        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - Mujica
         - baha
@@ -115,7 +117,7 @@ rules:
   在地下城寻求邂逅是否搞错了什么 第五季:
     options:
       download:
-        dir: /downloads/连载/{{rule.name}}
+        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - eon ni Deai wo Motome
         - baha
@@ -127,7 +129,7 @@ rules:
   Re 从零开始的异世界生活 第三季:
     options:
       download:
-        dir: /downloads/连载/{{rule.name}}
+        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - ara Hajimeru Isekai Seik
         - baha
@@ -139,7 +141,7 @@ rules:
   青之箱:
     options:
       download:
-        dir: /downloads/连载/{{rule.name}}
+        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - Ao no Hako
         - LoliHouse
@@ -148,7 +150,7 @@ rules:
   龙珠 大魔:
     options:
       download:
-        dir: /downloads/连载/{{rule.name}}
+        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - Dragon Ball Daima
         - LoliHouse
@@ -157,7 +159,7 @@ rules:
   Final:
     options:
       download:
-        dir: "/downloads/新番 全搬运 未分类"
+        command: ["rclone", "backend", "addurl", "pikpak:Share/新番 全搬运 未分类", "{{item.link}}"]
     accept:
       - - Up to 21
         - baha
