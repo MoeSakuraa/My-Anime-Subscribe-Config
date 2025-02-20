@@ -1,13 +1,9 @@
 resource:
-  url: "https://share.acgnx.se/rss.xml"
+  url: ["https://share.acgnx.se/rss.xml", "https://ouo.si/feed?"]
+replace:
+  "https://ouo.si/download/": "magnet:?xt=urn:btih:"
 record:
   expire: 604800
-download:
-  aria2:
-    env: true
-    enabled: false
-  custom:
-    enabled: true
 
 #↑以上内容勿改动
 #↓以下内容可改
@@ -15,8 +11,9 @@ download:
 rules:
   胆大党:
     options:
-      download:
-        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+      actions:
+        accept:
+          command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - andada
         - baha
@@ -27,8 +24,9 @@ rules:
       - - sp|ova|oad|special|特別
   You and idol 光之美少女♪:
     options:
-      download:
-        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+      actions:
+        accept:
+          command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - ou and Idol Prec
         - 雪飘工作
@@ -37,8 +35,9 @@ rules:
       - - sp|ova|oad|special|特別
   我和班上最讨厌的女生结婚了:
     options:
-      download:
-        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+      actions:
+        accept:
+          command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - ass no Daikirai na Joshi to Ke
         - baha
@@ -49,8 +48,9 @@ rules:
       - - sp|ova|oad|special|特別
   超超超超超喜欢你的100个女朋友 第二季:
     options:
-      download:
-        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+      actions:
+        accept:
+          command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - 超超超超超
         - baha
@@ -61,8 +61,9 @@ rules:
       - - sp|ova|oad|special|特別
   金牌得主:
     options:
-      download:
-        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+      actions:
+        accept:
+          command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - 金牌得主
         - LoliHouse
@@ -70,8 +71,9 @@ rules:
       - - sp|ova|oad|special|特別
   我独自升级 第二季:
     options:
-      download:
-        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+      actions:
+        accept:
+          command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - ake Level Up na
         - baha
@@ -82,8 +84,9 @@ rules:
       - - sp|ova|oad|special|特別
   战队红战士在异世界当冒险者:
     options:
-      download:
-        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+      actions:
+        accept:
+          command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - 战队红
         - trange-Raw
@@ -93,8 +96,9 @@ rules:
       - - sp|ova|oad|special|特別
   药屋少女的呢喃 第二季:
     options:
-      download:
-        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+      actions:
+        accept:
+          command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - usuriya no Hitorigo
         - 天月搬運組
@@ -104,8 +108,9 @@ rules:
       - - sp|ova|oad|special|特別
   BanG Dream! Ave Mujica:
     options:
-      download:
-        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+      actions:
+        accept:
+          command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - Mujica
         - baha
@@ -116,8 +121,9 @@ rules:
       - - sp|ova|oad|special|特別
   在地下城寻求邂逅是否搞错了什么 第五季:
     options:
-      download:
-        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+      actions:
+        accept:
+          command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - eon ni Deai wo Motome
         - baha
@@ -128,8 +134,9 @@ rules:
       - - sp|ova|oad|special|特別
   Re 从零开始的异世界生活 第三季:
     options:
-      download:
-        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+      actions:
+        accept:
+          command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - ara Hajimeru Isekai Seik
         - baha
@@ -140,8 +147,9 @@ rules:
       - - sp|ova|oad|special|特別
   青之箱:
     options:
-      download:
-        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+      actions:
+        accept:
+          command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - Ao no Hako
         - LoliHouse
@@ -149,8 +157,9 @@ rules:
       - - sp|ova|oad|special|特別
   龙珠 大魔:
     options:
-      download:
-        command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+      actions:
+        accept:
+          command: ["rclone", "backend", "addurl", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - Dragon Ball Daima
         - LoliHouse
@@ -158,8 +167,9 @@ rules:
       - - sp|ova|oad|special|特別
   Final:
     options:
-      download:
-        command: ["rclone", "backend", "addurl", "pikpak:Share/新番 全搬运 未分类", "{{item.link}}"]
+      actions:
+        accept:
+          command: ["rclone", "backend", "addurl", "pikpak:Share/新番 全搬运 未分类", "{{item.link}}"]
     accept:
       - - Up to 21
         - baha
