@@ -13,7 +13,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - andada
         - baha
@@ -26,7 +26,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - ou and Idol Prec
         - 雪飘工作
@@ -37,7 +37,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - ass no Daikirai na Joshi to Ke
         - baha
@@ -50,7 +50,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - 超超超超超
         - baha
@@ -63,7 +63,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - 金牌得主
         - LoliHouse
@@ -73,7 +73,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - ake Level Up na
         - baha
@@ -86,7 +86,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - 战队红
         - trange-Raw
@@ -98,7 +98,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - usuriya no Hitorigo
         - 天月搬運組
@@ -110,7 +110,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - Mujica
         - baha
@@ -123,7 +123,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - eon ni Deai wo Motome
         - baha
@@ -136,7 +136,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - ara Hajimeru Isekai Seik
         - baha
@@ -149,7 +149,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - Ao no Hako
         - LoliHouse
@@ -159,7 +159,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:Share/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
     accept:
       - - Dragon Ball Daima
         - LoliHouse
@@ -169,7 +169,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:Share/新番 全搬运 未分类", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/新番 全搬运 未分类", "{{item.link}}"]
     accept:
       - - Up to 21
         - baha
