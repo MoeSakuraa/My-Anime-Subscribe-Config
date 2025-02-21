@@ -1,5 +1,5 @@
 resource:
-  url: ["https://share.acgnx.se/rss.xml", "https://ouo.si/feed?"]
+  url: ["https://mikanani.me/RSS/Classic", "https://ouo.si/feed?"]
 replace:
   "https://ouo.si/download/": "magnet:?xt=urn:btih:"
 record:
