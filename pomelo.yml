@@ -1,5 +1,5 @@
 resource:
-  url: ["https://mikanani.me/RSS/Classic", "https://ouo.si/feed?", "https://mikanani.me/RSS/Search?searchstr=%E4%BD%A0%E5%90%8C%E4%B8%BA+%E5%81%B6%E5%83%8F%E5%85%89%E4%B9%8B"]
+  url: ["https://share.acgnx.se/rss.xml", "https://ouo.si/feed?"]
 record:
   expire: 604800
 
@@ -11,7 +11,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}&dn={{item.title}}"]
     accept:
       - - andada
         - baha
@@ -24,7 +24,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}&dn={{item.title}}"]
     accept:
       - - ou and Idol Prec
         - 雪飘工作
@@ -35,7 +35,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}&dn={{item.title}}"]
     accept:
       - - ass no Daikirai na Joshi to Ke
         - baha
@@ -48,7 +48,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}&dn={{item.title}}"]
     accept:
       - - 超超超超超
         - baha
@@ -61,7 +61,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}&dn={{item.title}}"]
     accept:
       - - 金牌得主
         - LoliHouse
@@ -71,7 +71,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}&dn={{item.title}}"]
     accept:
       - - ake Level Up na
         - baha
@@ -84,7 +84,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}&dn={{item.title}}"]
     accept:
       - - 战队红
         - trange-Raw
@@ -96,7 +96,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}&dn={{item.title}}"]
     accept:
       - - usuriya no Hitorigo
         - 天月搬運組
@@ -108,7 +108,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}&dn={{item.title}}"]
     accept:
       - - Mujica
         - baha
@@ -121,7 +121,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}&dn={{item.title}}"]
     accept:
       - - eon ni Deai wo Motome
         - baha
@@ -134,7 +134,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}&dn={{item.title}}"]
     accept:
       - - ara Hajimeru Isekai Seik
         - baha
@@ -147,7 +147,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}&dn={{item.title}}"]
     accept:
       - - 今晚月色真美
         - Ao no Hako
@@ -159,7 +159,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}&dn={{item.title}}"]
     accept:
       - - Dragon Ball Daima
         - LoliHouse
@@ -169,7 +169,7 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/新番 全搬运 未分类", "{{item.link}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/新番 全搬运 未分类", "{{item.link}}&dn={{item.title}}"]
     accept:
       - - Up to 21
         - baha
