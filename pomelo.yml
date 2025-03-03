@@ -1,5 +1,5 @@
 resource:
-  url: ["https://mikanani.me/RSS/Classic", "https://ouo.si/feed?"]
+  url: ["https://mikanani.me/RSS/Classic", "https://ouo.si/feed?", "https://mikanani.me/RSS/Search?searchstr=%E4%BD%A0%E5%90%8C%E4%B8%BA+%E5%81%B6%E5%83%8F%E5%85%89%E4%B9%8B"]
 record:
   expire: 604800
 
