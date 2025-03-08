@@ -117,16 +117,16 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  在地下城寻求邂逅是否搞错了什么 第五季:
+  欢迎来到日本，精灵小姐:
     options:
       actions:
         accept:
           command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
     accept:
-      - - eon ni Deai wo Motome
+      - - ihon e Youkoso E
         - baha
         - up to 21
-      - - DanMachi
+      - - ihon e Youkoso E
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
