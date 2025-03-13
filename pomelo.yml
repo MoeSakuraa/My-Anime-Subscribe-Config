@@ -15,7 +15,7 @@ rules:
     accept:
       - - andada
         - baha
-        - up to 21
+        - 黒ネズミたち
       - - andada
         - LoliHouse
     reject:
@@ -39,7 +39,7 @@ rules:
     accept:
       - - ass no Daikirai na Joshi to Ke
         - baha
-        - up to 21
+        - 黒ネズミたち
       - - urako
         - LoliHouse
     reject:
@@ -52,7 +52,7 @@ rules:
     accept:
       - - 超超超超超
         - baha
-        - up to 21
+        - 黒ネズミたち
       - - 超超超超超
         - LoliHouse
     reject:
@@ -75,7 +75,7 @@ rules:
     accept:
       - - ake Level Up na
         - baha
-        - up to 21
+        - 黒ネズミたち
       - - ake Level Up na
         - LoliHouse
     reject:
@@ -112,7 +112,7 @@ rules:
     accept:
       - - Mujica
         - baha
-        - up to 21
+        - 黒ネズミたち
       - - Mujica
         - LoliHouse
     reject:
@@ -125,7 +125,7 @@ rules:
     accept:
       - - ihon e Youkoso E
         - baha
-        - up to 21
+        - 黒ネズミたち
       - - ihon e Youkoso E
         - LoliHouse
     reject:
@@ -138,7 +138,7 @@ rules:
     accept:
       - - ara Hajimeru Isekai Seik
         - baha
-        - up to 21
+        - 黒ネズミたち
       - - ara Hajimeru Isekai Seik
         - LoliHouse
     reject:
@@ -171,7 +171,7 @@ rules:
         accept:
           command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/新番 全搬运 未分类", "{{item.link}}", "{{item.title}}"]
     accept:
-      - - Up to 21
+      - - 黒ネズミたち
         - baha
       - - ani
         - bilibili
