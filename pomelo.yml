@@ -44,29 +44,6 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  金牌得主:
-    options:
-      actions:
-        accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
-    accept:
-      - - 金牌得主
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  我独自升级 第二季:
-    options:
-      actions:
-        accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
-    accept:
-      - - ake Level Up na
-        - baha
-        - 黒ネズミたち
-      - - ake Level Up na
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   战队红战士在异世界当冒险者:
     options:
       actions:
