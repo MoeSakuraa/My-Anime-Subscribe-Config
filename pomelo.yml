@@ -31,19 +31,6 @@ rules:
         - 1080p
     reject:
       - - sp|ova|oad|special|特別
-  我和班上最讨厌的女生结婚了:
-    options:
-      actions:
-        accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
-    accept:
-      - - ass no Daikirai na Joshi to Ke
-        - baha
-        - 黒ネズミたち
-      - - urako
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   超超超超超喜欢你的100个女朋友 第二季:
     options:
       actions:
