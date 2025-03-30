@@ -68,18 +68,6 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  青之箱:
-    options:
-      actions:
-        accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
-    accept:
-      - - 今晚月色真美
-        - Ao no Hako
-      - - Ao no Hako
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   龙珠 大魔:
     options:
       actions:
