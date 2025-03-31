@@ -33,6 +33,19 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  LAZARUS:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - LAZARUS
+        - baha
+        - 黒ネズミたち
+      - - LAZARUS
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   You and idol 光之美少女♪:
     options:
       actions:
