@@ -20,6 +20,19 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  夏日口袋:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - Summer Pocket
+        - baha
+        - 黒ネズミたち
+      - - Summer Pocket
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   You and idol 光之美少女♪:
     options:
       actions:
