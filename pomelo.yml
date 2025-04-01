@@ -46,6 +46,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  赛马娘 芦毛灰姑娘:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "magnet:?xt=urn:btih:{{nyaa:infoHash}}", "{{item.title}}"]
+    accept:
+      - - Uma Musume
+        - ToonsHub
+        - NF
+    reject:
+      - - sp|ova|oad|special|特別
   You and idol 光之美少女♪:
     options:
       actions:
