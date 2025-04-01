@@ -1,5 +1,12 @@
 resource:
-  url: ["https://share.acgnx.se/rss.xml", "https://ouo.si/feed?", "https://nyaa.si/?page=rss"]
+  url:
+    - https://mikanani.me/RSS/Classic/1
+    - https://mikanani.me/RSS/Classic/2
+    - https://mikanani.me/RSS/Classic/3
+    - https://mikanani.me/RSS/Classic/4
+    - https://mikanani.me/RSS/Classic/5
+    - https://ouo.si/feed?
+    - https://nyaa.si/?page=rss
 record:
   expire: 604800
 
