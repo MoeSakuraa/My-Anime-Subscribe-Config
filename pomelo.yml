@@ -110,6 +110,8 @@ rules:
     accept:
       - - 黒ネズミたち
         - baha
+      - - ToonsHub
+        - NF
       - - ani
         - bilibili
       - - LoliHouse
