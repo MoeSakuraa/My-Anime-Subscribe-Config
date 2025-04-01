@@ -1,5 +1,5 @@
 resource:
-  url: ["https://share.acgnx.se/rss.xml", "https://ouo.si/feed?"]
+  url: ["https://share.acgnx.se/rss.xml", "https://ouo.si/feed?", "https://nyaa.si/?page=rss"]
 record:
   expire: 604800
 
