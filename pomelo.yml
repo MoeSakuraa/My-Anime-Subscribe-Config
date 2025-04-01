@@ -50,11 +50,13 @@ rules:
     options:
       actions:
         accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "magnet:?xt=urn:btih:{{nyaa:infoHash}}", "{{item.title}}"]
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
     accept:
       - - Uma Musume
         - ToonsHub
         - NF
+      - - Uma Musume
+        - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
   You and idol 光之美少女♪:
@@ -86,8 +88,9 @@ rules:
         accept:
           command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
     accept:
-      - - usuriya no Hitorigo
-        - 天月搬運組
+      - - The Apothecary Diaries
+        - ToonsHub
+        - NF
       - - usuriya no Hitorigo
         - LoliHouse
     reject:
