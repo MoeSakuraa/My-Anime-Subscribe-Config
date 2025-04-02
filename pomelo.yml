@@ -117,4 +117,4 @@ rules:
       - - LoliHouse
     reject:
       - - bdrip
-        - 合集
+      - - 合集
