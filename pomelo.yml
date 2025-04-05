@@ -53,6 +53,32 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  干杂活我乃最强～关于原英雄队伍的杂役人员，实际上除了战斗能力外全是SSS的故事～:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - higai no Atelier Meist
+        - baha
+        - 黒ネズミたち
+      - - higai no Atelier Meist
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
+  男女之间的友情存在吗？（不，不存在!!）:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - jo no Yuujou wa Se
+        - baha
+        - 黒ネズミたち
+      - - jo no Yuujou wa Se
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   赛马娘 芦毛灰姑娘:
     options:
       actions:
