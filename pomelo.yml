@@ -128,6 +128,19 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  魔女与使魔:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - WITCH.WATCH
+        - ToonsHub
+        - NF
+      - - WITCH.WATCH
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   Final:
     options:
       actions:
