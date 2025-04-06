@@ -98,10 +98,10 @@ rules:
         accept:
           command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
     accept:
-      - - Uma Musume
+      - - Uma.*Musume
         - ToonsHub
         - NF
-      - - Uma Musume
+      - - Uma.*Musume
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
