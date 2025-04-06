@@ -53,6 +53,19 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  九龙大众浪漫:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - owloon Generic Romanc
+        - baha
+        - 黒ネズミたち
+      - - owloon Generic Romanc
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   干杂活我乃最强～关于原英雄队伍的杂役人员，实际上除了战斗能力外全是SSS的故事～:
     options:
       actions:
