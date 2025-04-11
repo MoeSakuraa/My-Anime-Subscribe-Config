@@ -85,10 +85,10 @@ rules:
         accept:
           command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
     accept:
-      - - jo no Yuujou wa Se
+      - - (jo no Yuujou wa Se)|(女之间存在纯友)
         - baha
         - (黒ネズミたち)|(ani)
-      - - jo no Yuujou wa Se
+      - - (jo no Yuujou wa Se)|(女之间存在纯友)
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
