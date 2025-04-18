@@ -22,7 +22,7 @@ rules:
     accept:
       - - andada
         - baha
-        - (黒ネズミたち)|(ani)
+        - ani
       - - andada
         - LoliHouse
     reject:
@@ -35,7 +35,7 @@ rules:
     accept:
       - - Summer Pocket
         - baha
-        - (黒ネズミたち)|(ani)
+        - ani
       - - Summer Pocket
         - LoliHouse
     reject:
@@ -48,7 +48,7 @@ rules:
     accept:
       - - LAZARUS
         - baha
-        - (黒ネズミたち)|(ani)
+        - ani
       - - LAZARUS
         - LoliHouse
     reject:
@@ -61,7 +61,7 @@ rules:
     accept:
       - - owloon Generic Romanc
         - baha
-        - (黒ネズミたち)|(ani)
+        - ani
       - - owloon Generic Romanc
         - LoliHouse
     reject:
@@ -74,7 +74,7 @@ rules:
     accept:
       - - higai no Atelier Meist
         - baha
-        - (黒ネズミたち)|(ani)
+        - ani
       - - higai no Atelier Meist
         - LoliHouse
     reject:
@@ -87,7 +87,7 @@ rules:
     accept:
       - - (jo no Yuujou wa Se)|(女之间存在纯友)
         - baha
-        - (黒ネズミたち)|(ani)
+        - ani
       - - (jo no Yuujou wa Se)|(女之间存在纯友)
         - LoliHouse
     reject:
@@ -160,7 +160,7 @@ rules:
         accept:
           command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/新番 全搬运 未分类", "{{item.link}}", "{{item.title}}"]
     accept:
-      - - (黒ネズミたち)|(ani)
+      - - ani
         - baha
       - - ToonsHub
         - NF
