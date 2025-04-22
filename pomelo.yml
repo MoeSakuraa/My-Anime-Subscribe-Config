@@ -20,10 +20,10 @@ rules:
         accept:
           command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
     accept:
-      - - andada
+      - - (andada)|(胆大党)
         - baha
         - ani
-      - - andada
+      - - (andada)|(胆大党)
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
@@ -59,10 +59,10 @@ rules:
         accept:
           command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
     accept:
-      - - owloon Generic Romanc
+      - - (owloon Generic Romanc)|(九龙大众)
         - baha
         - ani
-      - - owloon Generic Romanc
+      - - (owloon Generic Romanc)|(九龙大众)
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
@@ -72,10 +72,10 @@ rules:
         accept:
           command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
     accept:
-      - - higai no Atelier Meist
+      - - (higai no Atelier Meist)|(于原英雄队伍的杂役人)
         - baha
         - ani
-      - - higai no Atelier Meist
+      - - (higai no Atelier Meist)|(于原英雄队伍的杂役人)
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
@@ -114,18 +114,6 @@ rules:
       - - ou and Idol Prec
         - 雪飘工作
         - 1080p
-    reject:
-      - - sp|ova|oad|special|特別
-  战队红战士在异世界当冒险者:
-    options:
-      actions:
-        accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
-    accept:
-      - - 战队红
-        - trange-Raw
-      - - 战队红
-        - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
   药屋少女的呢喃 第二季:
