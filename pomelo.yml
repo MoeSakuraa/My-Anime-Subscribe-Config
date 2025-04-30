@@ -40,6 +40,19 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  时光流逝 饭菜依旧美味:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - 饭菜依旧美味
+        - baha
+        - ani
+      - - 饭菜依旧美味
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   LAZARUS:
     options:
       actions:
