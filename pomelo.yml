@@ -181,6 +181,19 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  彻夜之歌2:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - (ukashi no Ut)|(彻夜)
+        - baha
+        - ani
+      - - (ukashi no Ut)|(彻夜)
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   Final:
     options:
       actions:
