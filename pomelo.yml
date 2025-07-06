@@ -181,7 +181,7 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  彻夜之歌2:
+  彻夜之歌S2:
     options:
       actions:
         accept:
@@ -194,7 +194,7 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  更衣人偶坠入爱河2:
+  更衣人偶坠入爱河S2:
     options:
       actions:
         accept:
