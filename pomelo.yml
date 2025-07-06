@@ -155,6 +155,20 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  小城日常:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - ITY THE ANIMATIO
+        - ToonsHub
+        - AMZN
+        - 265
+      - - ITY THE ANIMATIO
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   魔女与使魔:
     options:
       actions:
