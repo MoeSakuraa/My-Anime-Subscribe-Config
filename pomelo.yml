@@ -194,6 +194,19 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  更衣人偶坠入爱河2:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - (ono Bisque Doll wa Ko)|(更衣人偶)|(恋上换装娃娃)
+        - baha
+        - ani
+      - - (ono Bisque Doll wa Ko)|(更衣人偶)|(恋上换装娃娃)
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   Final:
     options:
       actions:
