@@ -235,6 +235,19 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  我怎么可能成为你的恋人 不行不行(※不是不可能):
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - 不可能成为恋
+        - baha
+        - ani
+      - - Watanare
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   更衣人偶坠入爱河S2:
     options:
       actions:
