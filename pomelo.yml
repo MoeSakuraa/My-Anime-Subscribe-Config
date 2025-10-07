@@ -262,19 +262,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  更衣人偶坠入爱河S2:
+  间谍过家家 第三季:
     options:
       actions:
         accept:
           command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
     accept:
-      - - (ono Bisque Doll wa Ko)|(更衣人偶)|(恋上换装娃娃)
-        - baha
-        - ani
-      - - (ono Bisque Doll wa Ko)|(更衣人偶)|(恋上换装娃娃)
+      - - ToonsHub
+        - NF
+        - SPY.x.FAMILY
+      - - SPY.x.FAMILY
         - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   Final:
     options:
       actions:
