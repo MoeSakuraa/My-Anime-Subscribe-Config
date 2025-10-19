@@ -235,6 +235,17 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  乱马S2:
+    option:
+      dir: /downloads/连载/{{rule.name}}
+    accept:
+      - - Ranma
+        - LoliHouse
+      - - Ranma
+        - ToonsHub
+        - DUAL
+    reject:
+      - - sp|ova|oad|special|特別
   拔作岛:
     options:
       actions:
