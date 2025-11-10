@@ -53,16 +53,16 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
-  mono女孩:
+  异世界四重奏S3:
     options:
       actions:
         accept:
           command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
     accept:
-      - - mono
+      - - sekai Quart
         - baha
         - ani
-      - - mono
+      - - sekai Quart
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
