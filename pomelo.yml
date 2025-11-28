@@ -223,8 +223,10 @@ rules:
     reject:
       - - sp|ova|oad|special|特別
   乱马S2:
-    option:
-      dir: /downloads/连载/{{rule.name}}
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
     accept:
       - - Ranma
         - LoliHouse
