@@ -14,19 +14,6 @@ record:
 #↓以下内容可改
 
 rules:
-  胆大党:
-    options:
-      actions:
-        accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
-    accept:
-      - - (andada)|(胆大党)
-        - baha
-        - ani
-      - - (andada)|(胆大党)
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   异世界四重奏S3:
     options:
       actions:
@@ -37,19 +24,6 @@ rules:
         - baha
         - ani
       - - sekai Quart
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  男女之间的友情存在吗？（不，不存在!!）:
-    options:
-      actions:
-        accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
-    accept:
-      - - (jo no Yuujou wa Se)|(女之间存在纯友)
-        - baha
-        - ani
-      - - (jo no Yuujou wa Se)|(女之间存在纯友)
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
@@ -77,86 +51,6 @@ rules:
         - 1080p
     reject:
       - - sp|ova|oad|special|特別
-  小城日常:
-    options:
-      actions:
-        accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
-    accept:
-      - - ITY THE ANIMATIO
-        - ToonsHub
-        - AMZN
-        - 265
-      - - ITY THE ANIMATIO
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  吊带袜天使S2:
-    options:
-      actions:
-        accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
-    accept:
-      - - NTY and STOCKIN
-        - ToonsHub
-        - AMZN
-        - 265
-      - - NTY and STOCKIN
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  魔女与使魔:
-    options:
-      actions:
-        accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
-    accept:
-      - - WITCH.WATCH
-        - ToonsHub
-        - NF
-      - - WITCH.WATCH
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  章鱼哔的原罪:
-    options:
-      actions:
-        accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
-    accept:
-      - - (akopii no Genz)|(章鱼哔的原罪)
-        - baha
-        - ani
-      - - (akopii no Genz)|(章鱼)
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  彻夜之歌S2:
-    options:
-      actions:
-        accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
-    accept:
-      - - (ukashi no Ut)|(彻夜)
-        - baha
-        - ani
-      - - (ukashi no Ut)|(彻夜)
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
-  碧蓝之海S2:
-    options:
-      actions:
-        accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
-    accept:
-      - - (rand Blu)|(碧蓝之海)
-        - baha
-        - ani
-      - - (rand Blu)|(碧蓝之海)
-        - LoliHouse
-    reject:
-      - - sp|ova|oad|special|特別
   乱马S2:
     options:
       actions:
@@ -168,19 +62,6 @@ rules:
       - - Ranma
         - ToonsHub
         - DUAL
-    reject:
-      - - sp|ova|oad|special|特別
-  我怎么可能成为你的恋人 不行不行(※不是不可能):
-    options:
-      actions:
-        accept:
-          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
-    accept:
-      - - 不可能成为恋
-        - baha
-        - ani
-      - - Watanare
-        - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
   间谍过家家 第三季:
