@@ -27,6 +27,45 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  我推的孩子第3期:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - 我推的孩子
+        - baha
+        - ani
+      - - 我推的孩子
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
+  公主大人拷问的时间到了S2:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - Himesama Goumon no Jikan des
+        - baha
+        - ani
+      - - Himesama Goumon no Jikan des
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
+  Fate strange Fake:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - strange Fake
+        - baha
+        - ani
+      - - strange Fake
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   赛马娘 芦毛灰姑娘:
     options:
       actions:
