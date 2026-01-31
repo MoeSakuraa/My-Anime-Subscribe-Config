@@ -66,6 +66,19 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  葬送的芙莉莲 第二季:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - 葬送的芙莉莲
+        - baha
+        - ani
+      - - 葬送的芙莉莲
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   Fate strange Fake:
     options:
       actions:
