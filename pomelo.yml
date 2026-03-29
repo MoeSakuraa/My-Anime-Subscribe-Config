@@ -140,6 +140,17 @@ rules:
         - SPY.x.FAMILY
       - - SPY.x.FAMILY
         - LoliHouse
+  JOJO奇妙冒险 飙马野郎:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - ToonsHub
+        - NF
+        - JoJos.Bizarre
+      - - JoJos.Bizarre
+        - LoliHouse
   Final:
     options:
       actions:
