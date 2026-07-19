@@ -33,10 +33,10 @@ rules:
         accept:
           command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
     accept:
-      - - ushoku Tense
+      - - 无职转生
         - baha
         - ani
-      - - ushoku Tense
+      - - 无职转生
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
