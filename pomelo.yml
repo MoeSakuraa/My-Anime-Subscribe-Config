@@ -40,6 +40,19 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  幼女战记 2期:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - 幼女战记
+        - baha
+        - ani
+      - - 幼女战记
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   尖帽子的魔法工坊:
     options:
       actions:
