@@ -66,6 +66,19 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  超超超超超喜欢你的100个女朋友 3期:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - 超超超超超
+        - baha
+        - ani
+      - - 超超超超超
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   幼女战记 2期:
     options:
       actions:
