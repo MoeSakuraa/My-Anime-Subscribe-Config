@@ -40,6 +40,32 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  碧蓝之海 3期:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - 碧蓝之海
+        - baha
+        - ani
+      - - 碧蓝之海
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
+  尼古喵喵:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - 尼古喵喵
+        - baha
+        - ani
+      - - 尼古喵喵
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   幼女战记 2期:
     options:
       actions:
