@@ -79,6 +79,19 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  躲在超市后门抽烟的两人:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - 在超市后门
+        - baha
+        - ani
+      - - 在超市后门
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   相反的你和我:
     options:
       actions:
