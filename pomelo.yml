@@ -105,6 +105,19 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  穹庐下的魔女:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - 穹庐下的魔女
+        - baha
+        - ani
+      - - 穹庐下的魔女
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   幼女战记 2期:
     options:
       actions:
