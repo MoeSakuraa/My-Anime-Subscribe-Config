@@ -92,6 +92,19 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  学生会也有洞！:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - Seitokai ni mo Ana wa Aru
+        - baha
+        - 黒ネズミたち
+      - - Seitokai ni mo Ana wa Aru
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   相反的你和我:
     options:
       actions:
