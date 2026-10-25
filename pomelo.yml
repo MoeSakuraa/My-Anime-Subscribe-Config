@@ -105,6 +105,19 @@ rules:
         - LoliHouse
     reject:
       - - sp|ova|oad|special|特別
+  药屋少女的呢喃 第三季:
+    options:
+      actions:
+        accept:
+          command: ["bash", "send-dl-req.sh", "pikpak:OfflineDownload/连载/{{rule.name}}", "{{item.link}}", "{{item.title}}"]
+    accept:
+      - - The Apothecary Diaries
+        - ToonsHub
+        - NF
+      - - The Apothecary Diaries
+        - LoliHouse
+    reject:
+      - - sp|ova|oad|special|特別
   相反的你和我:
     options:
       actions:
